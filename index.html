@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista zadań</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <h1 class="header">Lista zadań</h1>
+    <h2 class="tasks_header">Dodaj nowe zadanie</h2>
+<form class="form js-form">
+    <input class="form_input js-newTask" placeholder="Co jest do zrobienia?" required autofocus>
+    <button class="task_add">Dodaj zadanie</button>
+</form>
+<h2 class="list_header">Lista zadań
+    <div class="buttons js-buttons">
+    <button class="Task__done js-Task__done">Ukryj skończone zadania</button>
+    <button class="Task__done--remove js-Task__done--markAll">Oznacz wszystkie jako ukończone</button>
+</div>
+</h2>
+
+<ul class="tasks js-tasks"></ul>
+
+</body>
+</html>
